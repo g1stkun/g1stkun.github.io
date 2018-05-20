@@ -1,0 +1,19 @@
+title:             블로그
+email:             gsr2732@example.com
+description:       블로그
+author:            g1stkun
+baseurl:           "/"
+url:               "http://g1stkun.github.io"
+
+# Social Profiles
+#twitter_username:  SBootstrap
+#github_username:   BlackrockDigital
+#facebook_username: StartBootstrap
+
+# Build settings
+markdown:          kramdown
+paginate:          5
+paginate_path:     "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
