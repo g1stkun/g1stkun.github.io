@@ -1,6 +1,6 @@
-title:             블로그
+title:             kun의 기술 블로그
 email:             gsr2732@example.com
-description:       블로그
+description:       일상적 개발 이야기
 author:            g1stkun
 baseurl:           "/"
 url:               "http://g1stkun.github.io"
@@ -12,7 +12,7 @@ url:               "http://g1stkun.github.io"
 
 # Build settings
 markdown:          kramdown
-paginate:          5
+paginate:          10
 paginate_path:     "/posts/page:num/"
 plugins:
   - jekyll-feed
